@@ -14,16 +14,11 @@ const UserSchema = mongoose.Schema({
         type: String,
         required: true
     },
-    firstname : {
+    fullname : {
         type: String,
         required: true
     },
-    lastname : {
-        type : String,
-        required: true
-
-    },
-   
+    
 
 },
 {

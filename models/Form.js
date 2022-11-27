@@ -61,6 +61,11 @@ const FormSchema = mongoose.Schema({
     type: Number,
     required: true,
   },
+  //Insurance Company,
+  CompanyName : {
+    type: String,
+    required: true,
+  }
 },{
   timestamps : true,
 });

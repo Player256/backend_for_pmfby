@@ -5,6 +5,9 @@ const dotenv = require("dotenv");
 
 const AuthRouter = require("./routes/AuthRouter");
 const FormSubmitRouter = require("./routes/FormSubmitRouter");
+const InsuranceRouter = require("./routes/InsuranceRouter"); 
+const GovtRouter = require("./routes/GovtRouter");
+const FarmerDetailsRouter = require("./routes/FarmerDetailsRouter");
 const app = express();
 
 app.use(cors());
@@ -23,3 +26,6 @@ mongoose
 
 app.use("/user", AuthRouter);
 app.use("/form", FormSubmitRouter);
+app.use('/farmer',FarmerDetailsRouter)
+app.use('/insurance',InsuranceRouter);
+app.use('/govt',govtRouter);
