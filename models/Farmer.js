@@ -6,21 +6,18 @@ const FarmerSchema = mongoose.Schema({
     required: true
   },
   LandSize: {
-    type: Number,
+    type: String,
     required: true,
   },
   insuranceCompany: {
     type: String,
     required: true
   },
-  expirationDate:{
-    type : String,
-    required: true,
-  },
-  enrollmentDate:{
+  cropType : {
     type : String,
     required: true,
   }
+ 
 });
 
 const FarmerModel = mongoose.model("Farmer", FarmerSchema);

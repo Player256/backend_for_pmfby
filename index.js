@@ -26,6 +26,6 @@ mongoose
 
 app.use("/user", AuthRouter);
 app.use("/form", FormSubmitRouter);
-app.use('/farmer',FarmerDetailsRouter)
+app.use('/farmerDetails',FarmerDetailsRouter)
 app.use('/insurance',InsuranceRouter);
 app.use('/govt',GovtRouter);

@@ -9,16 +9,16 @@ const insuranceCompanySchema = mongoose.Schema({
     type: String,
     required: true,
   },
-  client: {
+  clients: [{
     type: mongoose.Schema.Types.ObjectId,
-    ref: "Farmer",
-  },
+    ref: "Govt",
+  }],
   expiryDate: {
-    type: Date,
+    type: String,
     required: true,
   },
   enrollmentDate: {
-    type: Date,
+    type: String,
     required: true,
   },
 });

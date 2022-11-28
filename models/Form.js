@@ -15,7 +15,7 @@ const FormSchema = mongoose.Schema({
     required: true,
   },
   Age: {
-    type: Number,
+    type: String,
     required: true,
   },
   Gender: {
@@ -36,7 +36,7 @@ const FormSchema = mongoose.Schema({
     required: true,
   },
   Pincode: {
-    type: Number,
+    type: String,
     required: true,
   },
   //Identification
@@ -45,7 +45,7 @@ const FormSchema = mongoose.Schema({
     required: true,
   },
   Id: {
-    type: Number,
+    type: String,
     required: true,
   },
   //Banking details to be discussed
@@ -58,7 +58,7 @@ const FormSchema = mongoose.Schema({
     required: true,
   },
   AccountNo: {
-    type: Number,
+    type: String,
     required: true,
   },
   //Insurance Company,
@@ -70,6 +70,6 @@ const FormSchema = mongoose.Schema({
   timestamps : true,
 });
 
-const FormModel = mongoose.model("Form", FormSchema);
+const FormModel = mongoose.model("Govt", FormSchema);
 
 module.exports = FormModel;

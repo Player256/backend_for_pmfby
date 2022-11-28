@@ -1,8 +1,8 @@
 const express = require('express');
-const farmerDetails = require('../controllers/InsuranceController');
+const clientDetails = require('../controllers/InsuranceController');
 
 const router = express.Router();
 
-router.get('/' ,farmerDetails);
+router.get('/' ,clientDetails);
 
 module.exports = router;
