@@ -1,10 +1,13 @@
 const FarmerModel = require('../models/Farmer');
 
 const GovtController = async (req , res)=>{
-    const govtDb = await FarmerModel.find({});
+    
     try {
-        res.status(201).send(govtDb);
+        const govtDb = await FarmerModel.find({});
+         res.status(201).json(govtDb);
     } catch (error) {
-        res.status(404).send('Not Found');
+        res.status(404).json('Not Found');
     }
 }
+
+module.exports = GovtController;

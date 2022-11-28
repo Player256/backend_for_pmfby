@@ -1,4 +1,4 @@
-const FarmerController = require('../router/FarmerController');
+const FarmerController = require('../controllers/FarmerController');
 const express = require('express');
 
 

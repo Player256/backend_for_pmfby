@@ -28,4 +28,4 @@ app.use("/user", AuthRouter);
 app.use("/form", FormSubmitRouter);
 app.use('/farmer',FarmerDetailsRouter)
 app.use('/insurance',InsuranceRouter);
-app.use('/govt',govtRouter);
+app.use('/govt',GovtRouter);
