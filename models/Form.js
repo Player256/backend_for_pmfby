@@ -65,7 +65,22 @@ const FormSchema = mongoose.Schema({
   CompanyName : {
     type: String,
     required: true,
+  },
+  enrollmentNumber: {
+    type : String,
+    required: true,
+
+  },
+  enrollmentDate: {
+    type : String,
+    required: true,
+  },
+  expiryDate: {
+    type : String,
+    required: true,
   }
+
+
 },{
   timestamps : true,
 });

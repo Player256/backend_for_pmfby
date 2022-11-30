@@ -1,4 +1,4 @@
-// const InsuranceModel = require('../models/InsuranceCompany');
+const InsuranceModel = require('../models/InsuranceCompany');
 const FarmerModel  =  require('../models/Farmer');
 
 const clientDetails = (req , res) => {
@@ -11,7 +11,7 @@ const clientDetails = (req , res) => {
             res.status(200).json(doc);
         })
         .catch((err) => {
-            res.status(500).json(err);
+            res.status(500).json("CompannyName not Found!!",err);
         })
 
 }

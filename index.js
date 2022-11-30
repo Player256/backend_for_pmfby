@@ -20,9 +20,9 @@ const PORT = 3000 || process.env.PORT;
 const mongourl = process.env.MONGOURL;
 
 mongoose
-  .connect(mongourl)
-  .then(() => app.listen(PORT, () => console.log(`Listening on port ${PORT}`)))
-  .catch((err) => console.log("fuck"));
+  .connect(mongourl, { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(() => app.listen(PORT, () => console.log(`Listening at Port ${PORT}`)))
+  .catch((error) => console.log(`${error} did not connect`));
 
 app.use("/user", AuthRouter);
 app.use("/form", FormSubmitRouter);

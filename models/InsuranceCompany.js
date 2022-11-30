@@ -13,14 +13,7 @@ const insuranceCompanySchema = mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: "Govt",
   }],
-  expiryDate: {
-    type: String,
-    required: true,
-  },
-  enrollmentDate: {
-    type: String,
-    required: true,
-  },
+  
 });
 
 const InsuranceModel = mongoose.model("Insurance", insuranceCompanySchema);
