@@ -1,10 +1,10 @@
 ### Team PARADOX 😄:
 
-## Team Members :-
-  - # Pratik Ranjan Sau
-  - # Paramjit Singh
-  - # Ardhi Dattatreya Varma
-  - # Suman Sahoo
+### Team Members :-
+  -  Pratik Ranjan Sau
+  -  Paramjit Singh
+  -  Ardhi Dattatreya Varma
+  -  Suman Sahoo
  
 ## Theme Chosen For The **Smart Odisha Hackathon 2022** - **Agriculture**
 
