@@ -1,23 +1,23 @@
-###Team PARADOX 🙃:
+### Team PARADOX 😄:
 
-##Team Members :-
-  - #Pratik Ranjan Sau
-  - #Suman Sahoo
-  - #Paramjit Singh
-  - #Ardhi Dattatreya Varma
+## Team Members :-
+  - # Pratik Ranjan Sau
+  - # Paramjit Singh
+  - # Ardhi Dattatreya Varma
+  - # Suman Sahoo
+ 
+## Theme Chosen For The **Smart Odisha Hackathon 2022** - **Agriculture**
 
-##Theme Chosen For The **Smart Odisha Hackathon 2022** - **Agriculture**
-
-##Problem Statement :-
+## Problem Statement :-
   - Delay in settling of crop insurance claims under the Pradhan Mantri Fasal Bima Yojana
   - Rejection of crop insurance claims under the Pradhan Mantri Fasal Bima Yojana
 
-##Problem Description :-
+## Problem Description :-
  - The Government of Odisha has enrolled multiple farmers across the state under the Pradhan Mantri Fasal Bima Yojana (PMFBY) this year. The number of enrollments has been increasing every year and the Government hopes to reach more farmers in a short time. 
 
  - Even though the scheme has been designed to be pro-farmer, there have been operational issues in the field. One such challenging problem is the delayed settlement of insurance claims and their rejection by insurance companies. Insurance companies are yet to clear almost 33 percent of estimated claims to the framers who come under the PMFBY.  Due to these issues the state has witnessed farmer agitations about the lack of clarity in the settlement and disbursement of insurance claims. 
 
-##Our Approach 🤔:-
+## Our Approach 🤔:-
   - Our goal was to provide a unified platform powerful enough to efficiently manage and display all the relevant insurance related claims on the palms of a farmer.
  It should be simple enough for the end user and be enough functional enough to implement the below points 😮‍💨
  - We started building a UI/UX using a poppular Android framework Flutter and for backend part Nodejs,MongoDB , expressJS , firebase to handle the requests smartly😏
@@ -32,4 +32,5 @@
  - There might be a case when a farmer may defraud for a insurance claim , keeping this in the mind we came with solution to include geolocation of the photo clicked live on the site . Then insurance company can check the location from their database and neccessary actions.This ensures that there is a lesser chance for corruption
 
 - For calculating yeild of land using another ML Model taking parameters of Air Temperature , Avearage Rainfall , Pesticide and Croptype.
+
 
